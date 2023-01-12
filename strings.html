@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript | string</title>
+  </head>
+  <body>
+    <!-- <div><h1>Strings</h1></div>
+    <div class="container">
+      <h4>String and String Methods</h4>
+      <h2>String Functions</h2>
+      <div id="content"></div>
+      <p>
+        string functions
+        <br />
+        1. index of
+        <br />
+        2. last index of
+        <br />
+        3. slice
+        <br />
+        4. substring
+        <br />
+        5. replace
+        <br />
+        6. Uppercase and Lowercase
+        <br />
+        7. Concatination
+        <br />
+        8. trim
+        <br />
+        9.
+      </p>
+    </div> -->
+    <script>
+      // var string = "this";
+      // var name = "Dhiraj Patil";
+      // let office = "Pama Design Studio.";
+      // var temp = `${name} is an Architect \nand have a \tbusiness\t named ${office}`;
+      // console.log(temp);
+      // var len = name.length;
+      // console.log(len);
+
+      // var y = new string("Dhiraj");
+      // console.log(y);
+
+      // document.getElementById("content").innerHTML = "<h3>this is uss </h3>";
+
+      var a = "This is a string";
+      console.log(a);
+      var position = a.lastIndexOf("s");
+      console.log(position);
+      var str = a.slice(1, 5);
+      var str = a.substring(0, 7);
+      var str = a.replace("This", "was");
+      var str = a.toUpperCase();
+      var strr = a.toLowerCase();
+      var newStr = "  This is Uss";
+      console.log(str);
+      console.log(strr);
+      console.log(a + newStr);
+      var newStrr = a.concat(" this is me");
+      console.log(newStrr);
+      var strWithWhiteSpaces = "    this   is    uss    ";
+      console.log(strWithWhiteSpaces);
+      console.log(strWithWhiteSpaces.trim());
+      strrr = a.charAt(12);
+      console.log(strrr);
+      console.log(a[12]);
+    </script>
+  </body>
+</html>
