@@ -44,6 +44,24 @@ button {
   cursor: pointer;
 }
 
-buttons {
-  display: contents;
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+.btn-yellow {
+  background: rgb(245, 146, 62);
+  color: white;
+}
+.btn-grey {
+  background: rgb(224, 224, 224);
+  color: rgb(14, 14, 14);
+}
+
+.btn-equal {
+  background: rgb(58, 118, 58);
+}
+.btn-clear {
+  background: rgb(212, 76, 76);
 }
