@@ -1,32 +1,45 @@
-console.log("this is function tutorial");
-let name3 = "dhiraj"
-let name1 =  "Gaurav"
-let name2 = "Rahul"
-let name4= "Amin"
-let greetText = "morning "
+// document.write("Learning Functions Today")
 
-// console.log(name3 + " is a good boy")
-// console.log(name1 + " is a good boy")
-// console.log(name2 + " is a good boy")
-// console.log(name4+ " is a good boy")
+// a=parseInt(prompt("one side is: "));
+// b=parseInt(prompt("one side is: "));
 
-// function greet(name, greetText = "Hello there"){
-//     // let name1 = "xxx"
-//     console.log(greetText + name + " is a good boy")
+// function recArea(a, b){
+//     let h=a;
+//     let w=b;
+//     document.write(h*w);
 // }
+// recArea(a,b);
 
-// greet (name1, greetText)
-// greet (name2, greetText)
-// greet (name3, greetText)
-// greet (name4)
 
-function returnVal(a,b,c ) {
+// ananymous Function
+// const login = function(username , passward){
+//     document.write(username);
+// }
+// login("Dhiraj  ");
+
+// const area = (a, b) => a*b;
+// a=parseInt(prompt("one side is: "));
+// b=parseInt(prompt("one side is: "));
+// document.write(area(a,b));
+
+
+// const n =parseInt(prompt("table of : "));
+// const generateTable = () => {for(let i=1; i<=10; i++){
     
-let    d = a + b+ c 
-// console.log(returnVal)
-return d
+//     document.write(`${i*n}  --`);
+// }}
+// generateTable();
+const r = parseInt(prompt("radius of circle is: "));
+calAreaOfCircle = (r) => {
+    const pi = 3.14;
+    return  pi * r *r;
+   
+}
+document.write(calAreaOfCircle (r));
+
+calSquare = (newVar, r) => {
+    const calAreaOfCircle = newVar(r);
+    return calAreaOfCircle*calAreaOfCircle;
 }
 
-console.log()
-let sum = returnVal(2,5,3);
-console.log(sum)
+document.write(calSquare (r));
